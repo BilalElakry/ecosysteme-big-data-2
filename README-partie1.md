@@ -2,11 +2,24 @@
 
 À lancer sur Fedora, depuis la racine du dépôt. Ce socle se teste avant l’intégration de Kafka. Utiliser Docker Engine avec le plugin Docker Compose, Bash, openssl et Git. Sur un poste disposant de 8 Gio de RAM, fermer les autres applications lourdes. Le premier build télécharge Spark et les JAR S3A et nécessite Internet et plusieurs Gio de disque libre.
 
-## 1. Préparer la branche et les fichiers
+## 1. Récupérer le projet
 
-Dans un clone existant et propre, exécuter `git switch main`, `git pull --ff-only` puis `git switch -c feature/bilal-spark-batch-graphx`. Si la branche existe, utiliser `git switch feature/bilal-spark-batch-graphx`. Si nécessaire, cloner d’abord votre dépôt GitHub commun.
+Si tu clones le projet pour la première fois, exécute :
 
-Extraire l’archive dans le dépôt (`unzip -n /chemin/Partie1_Bilal.zip`). Si le dépôt possède déjà un docker-compose.yml, extraire dans un dossier temporaire, copier le notebook, infra/bilal et infra/minio, et fusionner les sections services, volumes et x-* du Compose avec celles de Haitam. Conserver une seule clé services et une seule clé volumes. Le réseau par défaut suffit quand tous les services appartiennent au même projet Compose.
+```bash
+git clone --branch feature/bilal-spark-batch-graphx https://github.com/BilalElakry/ecosysteme-big-data-2.git
+cd ecosysteme-big-data-2
+```
+
+Si le dépôt est déjà cloné, exécute ces commandes depuis sa racine :
+
+```bash
+git fetch origin
+git switch feature/bilal-spark-batch-graphx
+git pull --ff-only
+```
+
+La branche contient le fichier `docker-compose.yml`, les Dockerfiles de Spark et MinIO dans `infra/`, ainsi que le notebook `notebooks/01_validation_cluster.ipynb`. Passe ensuite à la configuration de la machine.
 
 ## 2. Configurer la machine
 
