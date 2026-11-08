@@ -1,12 +1,12 @@
 # Partie 1 — Cluster Spark et MinIO de Bilal
 
-À lancer sur Fedora, depuis la racine du dépôt. Ce socle se teste avant l’intégration de Kafka. Utiliser Docker Engine avec le plugin Compose v2, Bash, openssl et Git. Sur un poste disposant de 8 Gio de RAM, fermer les autres applications lourdes. Le premier build télécharge Spark et les JAR S3A et nécessite Internet et plusieurs Gio de disque libre.
+À lancer sur Fedora, depuis la racine du dépôt. Ce socle se teste avant l’intégration de Kafka. Utiliser Docker Engine avec le plugin Docker Compose, Bash, openssl et Git. Sur un poste disposant de 8 Gio de RAM, fermer les autres applications lourdes. Le premier build télécharge Spark et les JAR S3A et nécessite Internet et plusieurs Gio de disque libre.
 
 ## 1. Préparer la branche et les fichiers
 
 Dans un clone existant et propre, exécuter `git switch main`, `git pull --ff-only` puis `git switch -c feature/bilal-spark-batch-graphx`. Si la branche existe, utiliser `git switch feature/bilal-spark-batch-graphx`. Si nécessaire, cloner d’abord votre dépôt GitHub commun.
 
-Extraire l’archive dans le dépôt (`unzip -n /chemin/Partie1_Bilal.zip`). Si le dépôt possède déjà un docker-compose.yml, extraire dans un dossier temporaire, copier le notebook et infra/bilal, et fusionner les sections services, volumes et x-* du Compose avec celles de Haitam. Conserver une seule clé services et une seule clé volumes. Le réseau par défaut suffit quand tous les services appartiennent au même projet Compose.
+Extraire l’archive dans le dépôt (`unzip -n /chemin/Partie1_Bilal.zip`). Si le dépôt possède déjà un docker-compose.yml, extraire dans un dossier temporaire, copier le notebook, infra/bilal et infra/minio, et fusionner les sections services, volumes et x-* du Compose avec celles de Haitam. Conserver une seule clé services et une seule clé volumes. Le réseau par défaut suffit quand tous les services appartiennent au même projet Compose.
 
 ## 2. Configurer la machine
 
@@ -31,12 +31,15 @@ Redéfinir la fonction dc dans tout nouveau terminal. Le fichier .env.bilal cont
 ```bash
 dc config --quiet
 dc build spark-master
+dc build minio
 dc up -d spark-master spark-worker-1 spark-worker-2 minio minio-init jupyter
 dc ps -a
 dc logs minio-init
 ```
 
 Le build du Master construit l’image commune au Master, aux Workers et à Jupyter. Le Dockerfile installe la distribution Spark 3.5.8 avec Scala 2.12, Java 17, Python 3.11, JupyterLab 4.4.10 et les JAR hadoop-aws 3.3.4 et aws-java-sdk-bundle 1.12.262. Le fichier spark-defaults.conf fournit le Master, l’adresse du Driver et les paramètres S3A. Les deux Workers annoncent chacun un cœur et 1 Gio à Spark. L’application demande un cœur et 512 Mio par executor et deux cœurs au total.
+
+Le build minio compile le serveur MinIO (RELEASE.2025-10-15T17-29-55Z) et le client mc (RELEASE.2025-08-13T08-35-41Z) depuis leurs dépôts GitHub officiels. Les services minio et minio-init partagent cette image locale. Prévoir plusieurs minutes, une connexion à Docker Hub, GitHub et au proxy de modules Go, ainsi que plusieurs Gio de disque pour la compilation.
 
 MinIO conserve /data dans le volume lake-data. Le service ponctuel minio-init attend MinIO, configure l’alias local puis exécute mc mb --ignore-existing local/lake. Il doit terminer avec le code 0. Les cinq services de longue durée restent actifs.
 
@@ -70,7 +73,7 @@ Conserver une capture du Master (2 Workers ALIVE), du bucket lake et du notebook
 
 ```bash
 git status --short
-git add .gitignore docker-compose.yml infra/bilal README-partie1.md notebooks/01_validation_cluster.ipynb
+git add .gitignore docker-compose.yml infra/bilal infra/minio README-partie1.md notebooks/01_validation_cluster.ipynb
 git diff --cached --stat
 git commit -m "Configure Spark standalone, Jupyter and MinIO for part 1"
 git push -u origin feature/bilal-spark-batch-graphx
