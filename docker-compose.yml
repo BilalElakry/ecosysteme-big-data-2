@@ -1,0 +1,99 @@
+x-spark: &spark
+  image: bigdata2-spark-lab:3.5.8
+  pull_policy: never
+
+x-s3-env: &s3-env
+  AWS_ACCESS_KEY_ID: ${MINIO_ROOT_USER:?Renseigner .env.bilal}
+  AWS_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD:?Renseigner .env.bilal}
+  AWS_REGION: us-east-1
+
+x-worker: &worker
+  <<: *spark
+  environment: *s3-env
+  depends_on:
+    spark-master:
+      condition: service_healthy
+  command:
+    - spark-class
+    - org.apache.spark.deploy.worker.Worker
+    - --cores
+    - "1"
+    - --memory
+    - 1g
+    - spark://spark-master:7077
+
+services:
+  spark-master:
+    <<: *spark
+    build:
+      context: ./infra/bilal
+      args:
+        LAB_UID: ${LAB_UID:-1000}
+        LAB_GID: ${LAB_GID:-1000}
+    hostname: spark-master
+    command: ["spark-class", "org.apache.spark.deploy.master.Master", "--host", "spark-master", "--port", "7077", "--webui-port", "8080"]
+    ports:
+      - "127.0.0.1:8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  spark-worker-1:
+    <<: *worker
+    hostname: spark-worker-1
+
+  spark-worker-2:
+    <<: *worker
+    hostname: spark-worker-2
+
+  minio:
+    image: quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
+    command: ["server", "/data", "--console-address", ":9001"]
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    ports:
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9001:9001"
+    volumes:
+      - lake-data:/data
+
+  minio-init:
+    image: quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
+    depends_on:
+      - minio
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    entrypoint: ["/bin/sh", "-ec"]
+    command:
+      - |
+        attempt=0
+        while [ "$$attempt" -lt 60 ]; do
+          attempt=$$((attempt + 1))
+          if mc alias set local http://minio:9000 "$$MINIO_ROOT_USER" "$$MINIO_ROOT_PASSWORD" && mc mb --ignore-existing local/lake; then
+            exec mc ls local/
+          fi
+          sleep 2
+        done
+        exit 1
+
+  jupyter:
+    <<: *spark
+    hostname: jupyter
+    environment: *s3-env
+    depends_on:
+      minio-init:
+        condition: service_completed_successfully
+      spark-master:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8888:8888"
+      - "127.0.0.1:4040:4040"
+    volumes:
+      - ./notebooks:/home/lab/notebooks:Z
+    command: ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--ServerApp.root_dir=/home/lab/notebooks"]
+volumes:
+  lake-data:
