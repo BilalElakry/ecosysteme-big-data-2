@@ -2,6 +2,6 @@
 .ipynb_checkpoints/
 
 # Generated Big Data files
-data/
+data/generated/
 *.jsonl
 __pycache__/
