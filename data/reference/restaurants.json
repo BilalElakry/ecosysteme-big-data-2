@@ -1,0 +1,1602 @@
+[
+  {
+    "restaurant_id": "REST-0001",
+    "name": "Atlas Kitchen Casablanca",
+    "city": "Casablanca",
+    "category": "MOROCCAN",
+    "lat": 33.550606,
+    "lon": -7.566417
+  },
+  {
+    "restaurant_id": "REST-0002",
+    "name": "Medina Table Casablanca",
+    "city": "Casablanca",
+    "category": "FAST_FOOD",
+    "lat": 33.563585,
+    "lon": -7.580179
+  },
+  {
+    "restaurant_id": "REST-0003",
+    "name": "Saffron House Casablanca",
+    "city": "Casablanca",
+    "category": "ITALIAN",
+    "lat": 33.538774,
+    "lon": -7.620202
+  },
+  {
+    "restaurant_id": "REST-0004",
+    "name": "Olive Garden Casablanca",
+    "city": "Casablanca",
+    "category": "ASIAN",
+    "lat": 33.547375,
+    "lon": -7.62141
+  },
+  {
+    "restaurant_id": "REST-0005",
+    "name": "Cedar Bistro Casablanca",
+    "city": "Casablanca",
+    "category": "SEAFOOD",
+    "lat": 33.541748,
+    "lon": -7.61712
+  },
+  {
+    "restaurant_id": "REST-0006",
+    "name": "Mint & Grill Casablanca",
+    "city": "Casablanca",
+    "category": "HEALTHY",
+    "lat": 33.559437,
+    "lon": -7.603832
+  },
+  {
+    "restaurant_id": "REST-0007",
+    "name": "Zayna Food Casablanca",
+    "city": "Casablanca",
+    "category": "CAFE",
+    "lat": 33.573079,
+    "lon": -7.579111
+  },
+  {
+    "restaurant_id": "REST-0008",
+    "name": "Dar Flavors Casablanca",
+    "city": "Casablanca",
+    "category": "MOROCCAN",
+    "lat": 33.59014,
+    "lon": -7.576739
+  },
+  {
+    "restaurant_id": "REST-0009",
+    "name": "Urban Couscous Casablanca",
+    "city": "Casablanca",
+    "category": "FAST_FOOD",
+    "lat": 33.5734,
+    "lon": -7.55878
+  },
+  {
+    "restaurant_id": "REST-0010",
+    "name": "Golden Tagine Casablanca",
+    "city": "Casablanca",
+    "category": "ITALIAN",
+    "lat": 33.606204,
+    "lon": -7.568702
+  },
+  {
+    "restaurant_id": "REST-0011",
+    "name": "Rif Taste Casablanca",
+    "city": "Casablanca",
+    "category": "ASIAN",
+    "lat": 33.572246,
+    "lon": -7.571457
+  },
+  {
+    "restaurant_id": "REST-0012",
+    "name": "Palm Street Casablanca",
+    "city": "Casablanca",
+    "category": "SEAFOOD",
+    "lat": 33.561372,
+    "lon": -7.573867
+  },
+  {
+    "restaurant_id": "REST-0013",
+    "name": "Spice Route Casablanca",
+    "city": "Casablanca",
+    "category": "HEALTHY",
+    "lat": 33.547496,
+    "lon": -7.613189
+  },
+  {
+    "restaurant_id": "REST-0014",
+    "name": "Blue Door Casablanca",
+    "city": "Casablanca",
+    "category": "CAFE",
+    "lat": 33.598215,
+    "lon": -7.619787
+  },
+  {
+    "restaurant_id": "REST-0015",
+    "name": "Kasbah Bites Casablanca",
+    "city": "Casablanca",
+    "category": "MOROCCAN",
+    "lat": 33.571828,
+    "lon": -7.568929
+  },
+  {
+    "restaurant_id": "REST-0016",
+    "name": "Fresh Corner Casablanca",
+    "city": "Casablanca",
+    "category": "FAST_FOOD",
+    "lat": 33.565684,
+    "lon": -7.569713
+  },
+  {
+    "restaurant_id": "REST-0017",
+    "name": "The Copper Pot Casablanca",
+    "city": "Casablanca",
+    "category": "ITALIAN",
+    "lat": 33.560063,
+    "lon": -7.621305
+  },
+  {
+    "restaurant_id": "REST-0018",
+    "name": "Citrus Kitchen Casablanca",
+    "city": "Casablanca",
+    "category": "ASIAN",
+    "lat": 33.568871,
+    "lon": -7.573203
+  },
+  {
+    "restaurant_id": "REST-0019",
+    "name": "Bab Gourmet Casablanca",
+    "city": "Casablanca",
+    "category": "SEAFOOD",
+    "lat": 33.562725,
+    "lon": -7.592152
+  },
+  {
+    "restaurant_id": "REST-0020",
+    "name": "Terracotta Casablanca",
+    "city": "Casablanca",
+    "category": "HEALTHY",
+    "lat": 33.558136,
+    "lon": -7.605548
+  },
+  {
+    "restaurant_id": "REST-0021",
+    "name": "Atlas Kitchen Rabat",
+    "city": "Rabat",
+    "category": "CAFE",
+    "lat": 33.985953,
+    "lon": -6.865579
+  },
+  {
+    "restaurant_id": "REST-0022",
+    "name": "Medina Table Rabat",
+    "city": "Rabat",
+    "category": "MOROCCAN",
+    "lat": 33.997287,
+    "lon": -6.829475
+  },
+  {
+    "restaurant_id": "REST-0023",
+    "name": "Saffron House Rabat",
+    "city": "Rabat",
+    "category": "FAST_FOOD",
+    "lat": 34.045282,
+    "lon": -6.871278
+  },
+  {
+    "restaurant_id": "REST-0024",
+    "name": "Olive Garden Rabat",
+    "city": "Rabat",
+    "category": "ITALIAN",
+    "lat": 34.054038,
+    "lon": -6.808342
+  },
+  {
+    "restaurant_id": "REST-0025",
+    "name": "Cedar Bistro Rabat",
+    "city": "Rabat",
+    "category": "ASIAN",
+    "lat": 34.021821,
+    "lon": -6.84958
+  },
+  {
+    "restaurant_id": "REST-0026",
+    "name": "Mint & Grill Rabat",
+    "city": "Rabat",
+    "category": "SEAFOOD",
+    "lat": 34.03336,
+    "lon": -6.862108
+  },
+  {
+    "restaurant_id": "REST-0027",
+    "name": "Zayna Food Rabat",
+    "city": "Rabat",
+    "category": "HEALTHY",
+    "lat": 34.008695,
+    "lon": -6.815996
+  },
+  {
+    "restaurant_id": "REST-0028",
+    "name": "Dar Flavors Rabat",
+    "city": "Rabat",
+    "category": "CAFE",
+    "lat": 34.038759,
+    "lon": -6.815891
+  },
+  {
+    "restaurant_id": "REST-0029",
+    "name": "Urban Couscous Rabat",
+    "city": "Rabat",
+    "category": "MOROCCAN",
+    "lat": 34.051788,
+    "lon": -6.865645
+  },
+  {
+    "restaurant_id": "REST-0030",
+    "name": "Golden Tagine Rabat",
+    "city": "Rabat",
+    "category": "FAST_FOOD",
+    "lat": 34.028334,
+    "lon": -6.826691
+  },
+  {
+    "restaurant_id": "REST-0031",
+    "name": "Rif Taste Rabat",
+    "city": "Rabat",
+    "category": "ITALIAN",
+    "lat": 34.016314,
+    "lon": -6.826634
+  },
+  {
+    "restaurant_id": "REST-0032",
+    "name": "Palm Street Rabat",
+    "city": "Rabat",
+    "category": "ASIAN",
+    "lat": 34.029141,
+    "lon": -6.872161
+  },
+  {
+    "restaurant_id": "REST-0033",
+    "name": "Spice Route Rabat",
+    "city": "Rabat",
+    "category": "SEAFOOD",
+    "lat": 33.995605,
+    "lon": -6.875306
+  },
+  {
+    "restaurant_id": "REST-0034",
+    "name": "Blue Door Rabat",
+    "city": "Rabat",
+    "category": "HEALTHY",
+    "lat": 34.035422,
+    "lon": -6.83818
+  },
+  {
+    "restaurant_id": "REST-0035",
+    "name": "Kasbah Bites Rabat",
+    "city": "Rabat",
+    "category": "CAFE",
+    "lat": 34.027906,
+    "lon": -6.876088
+  },
+  {
+    "restaurant_id": "REST-0036",
+    "name": "Fresh Corner Rabat",
+    "city": "Rabat",
+    "category": "MOROCCAN",
+    "lat": 34.051059,
+    "lon": -6.823036
+  },
+  {
+    "restaurant_id": "REST-0037",
+    "name": "The Copper Pot Rabat",
+    "city": "Rabat",
+    "category": "FAST_FOOD",
+    "lat": 34.04754,
+    "lon": -6.817083
+  },
+  {
+    "restaurant_id": "REST-0038",
+    "name": "Citrus Kitchen Rabat",
+    "city": "Rabat",
+    "category": "ITALIAN",
+    "lat": 34.053949,
+    "lon": -6.867129
+  },
+  {
+    "restaurant_id": "REST-0039",
+    "name": "Bab Gourmet Rabat",
+    "city": "Rabat",
+    "category": "ASIAN",
+    "lat": 34.022963,
+    "lon": -6.808472
+  },
+  {
+    "restaurant_id": "REST-0040",
+    "name": "Terracotta Rabat",
+    "city": "Rabat",
+    "category": "SEAFOOD",
+    "lat": 34.007675,
+    "lon": -6.813702
+  },
+  {
+    "restaurant_id": "REST-0041",
+    "name": "Atlas Kitchen Kenitra",
+    "city": "Kenitra",
+    "category": "HEALTHY",
+    "lat": 34.271032,
+    "lon": -6.548269
+  },
+  {
+    "restaurant_id": "REST-0042",
+    "name": "Medina Table Kenitra",
+    "city": "Kenitra",
+    "category": "CAFE",
+    "lat": 34.226131,
+    "lon": -6.574618
+  },
+  {
+    "restaurant_id": "REST-0043",
+    "name": "Saffron House Kenitra",
+    "city": "Kenitra",
+    "category": "MOROCCAN",
+    "lat": 34.278271,
+    "lon": -6.587607
+  },
+  {
+    "restaurant_id": "REST-0044",
+    "name": "Olive Garden Kenitra",
+    "city": "Kenitra",
+    "category": "FAST_FOOD",
+    "lat": 34.281305,
+    "lon": -6.589093
+  },
+  {
+    "restaurant_id": "REST-0045",
+    "name": "Cedar Bistro Kenitra",
+    "city": "Kenitra",
+    "category": "ITALIAN",
+    "lat": 34.229403,
+    "lon": -6.561609
+  },
+  {
+    "restaurant_id": "REST-0046",
+    "name": "Mint & Grill Kenitra",
+    "city": "Kenitra",
+    "category": "ASIAN",
+    "lat": 34.233288,
+    "lon": -6.59892
+  },
+  {
+    "restaurant_id": "REST-0047",
+    "name": "Zayna Food Kenitra",
+    "city": "Kenitra",
+    "category": "SEAFOOD",
+    "lat": 34.280309,
+    "lon": -6.605965
+  },
+  {
+    "restaurant_id": "REST-0048",
+    "name": "Dar Flavors Kenitra",
+    "city": "Kenitra",
+    "category": "HEALTHY",
+    "lat": 34.250495,
+    "lon": -6.557355
+  },
+  {
+    "restaurant_id": "REST-0049",
+    "name": "Urban Couscous Kenitra",
+    "city": "Kenitra",
+    "category": "CAFE",
+    "lat": 34.22917,
+    "lon": -6.552347
+  },
+  {
+    "restaurant_id": "REST-0050",
+    "name": "Golden Tagine Kenitra",
+    "city": "Kenitra",
+    "category": "MOROCCAN",
+    "lat": 34.291576,
+    "lon": -6.592369
+  },
+  {
+    "restaurant_id": "REST-0051",
+    "name": "Rif Taste Kenitra",
+    "city": "Kenitra",
+    "category": "FAST_FOOD",
+    "lat": 34.240833,
+    "lon": -6.554922
+  },
+  {
+    "restaurant_id": "REST-0052",
+    "name": "Palm Street Kenitra",
+    "city": "Kenitra",
+    "category": "ITALIAN",
+    "lat": 34.292836,
+    "lon": -6.586472
+  },
+  {
+    "restaurant_id": "REST-0053",
+    "name": "Spice Route Kenitra",
+    "city": "Kenitra",
+    "category": "ASIAN",
+    "lat": 34.271136,
+    "lon": -6.591374
+  },
+  {
+    "restaurant_id": "REST-0054",
+    "name": "Blue Door Kenitra",
+    "city": "Kenitra",
+    "category": "SEAFOOD",
+    "lat": 34.290809,
+    "lon": -6.551675
+  },
+  {
+    "restaurant_id": "REST-0055",
+    "name": "Kasbah Bites Kenitra",
+    "city": "Kenitra",
+    "category": "HEALTHY",
+    "lat": 34.227405,
+    "lon": -6.596594
+  },
+  {
+    "restaurant_id": "REST-0056",
+    "name": "Fresh Corner Kenitra",
+    "city": "Kenitra",
+    "category": "CAFE",
+    "lat": 34.230709,
+    "lon": -6.600709
+  },
+  {
+    "restaurant_id": "REST-0057",
+    "name": "The Copper Pot Kenitra",
+    "city": "Kenitra",
+    "category": "MOROCCAN",
+    "lat": 34.284469,
+    "lon": -6.594897
+  },
+  {
+    "restaurant_id": "REST-0058",
+    "name": "Citrus Kitchen Kenitra",
+    "city": "Kenitra",
+    "category": "FAST_FOOD",
+    "lat": 34.273134,
+    "lon": -6.589772
+  },
+  {
+    "restaurant_id": "REST-0059",
+    "name": "Bab Gourmet Kenitra",
+    "city": "Kenitra",
+    "category": "ITALIAN",
+    "lat": 34.247098,
+    "lon": -6.577597
+  },
+  {
+    "restaurant_id": "REST-0060",
+    "name": "Terracotta Kenitra",
+    "city": "Kenitra",
+    "category": "ASIAN",
+    "lat": 34.262607,
+    "lon": -6.602601
+  },
+  {
+    "restaurant_id": "REST-0061",
+    "name": "Atlas Kitchen Sale",
+    "city": "Sale",
+    "category": "SEAFOOD",
+    "lat": 34.043248,
+    "lon": -6.830136
+  },
+  {
+    "restaurant_id": "REST-0062",
+    "name": "Medina Table Sale",
+    "city": "Sale",
+    "category": "HEALTHY",
+    "lat": 34.036708,
+    "lon": -6.800517
+  },
+  {
+    "restaurant_id": "REST-0063",
+    "name": "Saffron House Sale",
+    "city": "Sale",
+    "category": "CAFE",
+    "lat": 34.039521,
+    "lon": -6.822424
+  },
+  {
+    "restaurant_id": "REST-0064",
+    "name": "Olive Garden Sale",
+    "city": "Sale",
+    "category": "MOROCCAN",
+    "lat": 34.005188,
+    "lon": -6.829098
+  },
+  {
+    "restaurant_id": "REST-0065",
+    "name": "Cedar Bistro Sale",
+    "city": "Sale",
+    "category": "FAST_FOOD",
+    "lat": 34.060171,
+    "lon": -6.803489
+  },
+  {
+    "restaurant_id": "REST-0066",
+    "name": "Mint & Grill Sale",
+    "city": "Sale",
+    "category": "ITALIAN",
+    "lat": 34.00603,
+    "lon": -6.791093
+  },
+  {
+    "restaurant_id": "REST-0067",
+    "name": "Zayna Food Sale",
+    "city": "Sale",
+    "category": "ASIAN",
+    "lat": 34.048322,
+    "lon": -6.783788
+  },
+  {
+    "restaurant_id": "REST-0068",
+    "name": "Dar Flavors Sale",
+    "city": "Sale",
+    "category": "SEAFOOD",
+    "lat": 34.04755,
+    "lon": -6.829374
+  },
+  {
+    "restaurant_id": "REST-0069",
+    "name": "Urban Couscous Sale",
+    "city": "Sale",
+    "category": "HEALTHY",
+    "lat": 34.009687,
+    "lon": -6.827824
+  },
+  {
+    "restaurant_id": "REST-0070",
+    "name": "Golden Tagine Sale",
+    "city": "Sale",
+    "category": "CAFE",
+    "lat": 34.046648,
+    "lon": -6.765808
+  },
+  {
+    "restaurant_id": "REST-0071",
+    "name": "Rif Taste Sale",
+    "city": "Sale",
+    "category": "MOROCCAN",
+    "lat": 34.015692,
+    "lon": -6.78971
+  },
+  {
+    "restaurant_id": "REST-0072",
+    "name": "Palm Street Sale",
+    "city": "Sale",
+    "category": "FAST_FOOD",
+    "lat": 34.067239,
+    "lon": -6.803215
+  },
+  {
+    "restaurant_id": "REST-0073",
+    "name": "Spice Route Sale",
+    "city": "Sale",
+    "category": "ITALIAN",
+    "lat": 34.036569,
+    "lon": -6.822945
+  },
+  {
+    "restaurant_id": "REST-0074",
+    "name": "Blue Door Sale",
+    "city": "Sale",
+    "category": "ASIAN",
+    "lat": 34.041707,
+    "lon": -6.794401
+  },
+  {
+    "restaurant_id": "REST-0075",
+    "name": "Kasbah Bites Sale",
+    "city": "Sale",
+    "category": "SEAFOOD",
+    "lat": 34.005463,
+    "lon": -6.832456
+  },
+  {
+    "restaurant_id": "REST-0076",
+    "name": "Fresh Corner Sale",
+    "city": "Sale",
+    "category": "HEALTHY",
+    "lat": 34.044638,
+    "lon": -6.8123
+  },
+  {
+    "restaurant_id": "REST-0077",
+    "name": "The Copper Pot Sale",
+    "city": "Sale",
+    "category": "CAFE",
+    "lat": 34.01216,
+    "lon": -6.791777
+  },
+  {
+    "restaurant_id": "REST-0078",
+    "name": "Citrus Kitchen Sale",
+    "city": "Sale",
+    "category": "MOROCCAN",
+    "lat": 34.035233,
+    "lon": -6.781069
+  },
+  {
+    "restaurant_id": "REST-0079",
+    "name": "Bab Gourmet Sale",
+    "city": "Sale",
+    "category": "FAST_FOOD",
+    "lat": 34.007367,
+    "lon": -6.792301
+  },
+  {
+    "restaurant_id": "REST-0080",
+    "name": "Terracotta Sale",
+    "city": "Sale",
+    "category": "ITALIAN",
+    "lat": 34.010377,
+    "lon": -6.811949
+  },
+  {
+    "restaurant_id": "REST-0081",
+    "name": "Atlas Kitchen Marrakech",
+    "city": "Marrakech",
+    "category": "ASIAN",
+    "lat": 31.628432,
+    "lon": -7.967029
+  },
+  {
+    "restaurant_id": "REST-0082",
+    "name": "Medina Table Marrakech",
+    "city": "Marrakech",
+    "category": "SEAFOOD",
+    "lat": 31.658652,
+    "lon": -7.955127
+  },
+  {
+    "restaurant_id": "REST-0083",
+    "name": "Saffron House Marrakech",
+    "city": "Marrakech",
+    "category": "HEALTHY",
+    "lat": 31.633059,
+    "lon": -7.950841
+  },
+  {
+    "restaurant_id": "REST-0084",
+    "name": "Olive Garden Marrakech",
+    "city": "Marrakech",
+    "category": "CAFE",
+    "lat": 31.635227,
+    "lon": -7.952861
+  },
+  {
+    "restaurant_id": "REST-0085",
+    "name": "Cedar Bistro Marrakech",
+    "city": "Marrakech",
+    "category": "MOROCCAN",
+    "lat": 31.657216,
+    "lon": -7.996271
+  },
+  {
+    "restaurant_id": "REST-0086",
+    "name": "Mint & Grill Marrakech",
+    "city": "Marrakech",
+    "category": "FAST_FOOD",
+    "lat": 31.662024,
+    "lon": -7.968288
+  },
+  {
+    "restaurant_id": "REST-0087",
+    "name": "Zayna Food Marrakech",
+    "city": "Marrakech",
+    "category": "ITALIAN",
+    "lat": 31.653704,
+    "lon": -7.997162
+  },
+  {
+    "restaurant_id": "REST-0088",
+    "name": "Dar Flavors Marrakech",
+    "city": "Marrakech",
+    "category": "ASIAN",
+    "lat": 31.646247,
+    "lon": -7.969715
+  },
+  {
+    "restaurant_id": "REST-0089",
+    "name": "Urban Couscous Marrakech",
+    "city": "Marrakech",
+    "category": "SEAFOOD",
+    "lat": 31.637234,
+    "lon": -8.006766
+  },
+  {
+    "restaurant_id": "REST-0090",
+    "name": "Golden Tagine Marrakech",
+    "city": "Marrakech",
+    "category": "HEALTHY",
+    "lat": 31.622721,
+    "lon": -8.012692
+  },
+  {
+    "restaurant_id": "REST-0091",
+    "name": "Rif Taste Marrakech",
+    "city": "Marrakech",
+    "category": "CAFE",
+    "lat": 31.64092,
+    "lon": -7.950014
+  },
+  {
+    "restaurant_id": "REST-0092",
+    "name": "Palm Street Marrakech",
+    "city": "Marrakech",
+    "category": "MOROCCAN",
+    "lat": 31.637081,
+    "lon": -7.978934
+  },
+  {
+    "restaurant_id": "REST-0093",
+    "name": "Spice Route Marrakech",
+    "city": "Marrakech",
+    "category": "FAST_FOOD",
+    "lat": 31.606617,
+    "lon": -7.991681
+  },
+  {
+    "restaurant_id": "REST-0094",
+    "name": "Blue Door Marrakech",
+    "city": "Marrakech",
+    "category": "ITALIAN",
+    "lat": 31.647196,
+    "lon": -7.978929
+  },
+  {
+    "restaurant_id": "REST-0095",
+    "name": "Kasbah Bites Marrakech",
+    "city": "Marrakech",
+    "category": "ASIAN",
+    "lat": 31.603749,
+    "lon": -7.987893
+  },
+  {
+    "restaurant_id": "REST-0096",
+    "name": "Fresh Corner Marrakech",
+    "city": "Marrakech",
+    "category": "SEAFOOD",
+    "lat": 31.623326,
+    "lon": -8.002277
+  },
+  {
+    "restaurant_id": "REST-0097",
+    "name": "The Copper Pot Marrakech",
+    "city": "Marrakech",
+    "category": "HEALTHY",
+    "lat": 31.647694,
+    "lon": -7.94871
+  },
+  {
+    "restaurant_id": "REST-0098",
+    "name": "Citrus Kitchen Marrakech",
+    "city": "Marrakech",
+    "category": "CAFE",
+    "lat": 31.624785,
+    "lon": -7.960952
+  },
+  {
+    "restaurant_id": "REST-0099",
+    "name": "Bab Gourmet Marrakech",
+    "city": "Marrakech",
+    "category": "MOROCCAN",
+    "lat": 31.635027,
+    "lon": -7.975741
+  },
+  {
+    "restaurant_id": "REST-0100",
+    "name": "Terracotta Marrakech",
+    "city": "Marrakech",
+    "category": "FAST_FOOD",
+    "lat": 31.649228,
+    "lon": -7.962346
+  },
+  {
+    "restaurant_id": "REST-0101",
+    "name": "Atlas Kitchen Fes",
+    "city": "Fes",
+    "category": "ITALIAN",
+    "lat": 34.041283,
+    "lon": -5.018807
+  },
+  {
+    "restaurant_id": "REST-0102",
+    "name": "Medina Table Fes",
+    "city": "Fes",
+    "category": "ASIAN",
+    "lat": 34.039185,
+    "lon": -5.028154
+  },
+  {
+    "restaurant_id": "REST-0103",
+    "name": "Saffron House Fes",
+    "city": "Fes",
+    "category": "SEAFOOD",
+    "lat": 34.022481,
+    "lon": -4.99809
+  },
+  {
+    "restaurant_id": "REST-0104",
+    "name": "Olive Garden Fes",
+    "city": "Fes",
+    "category": "HEALTHY",
+    "lat": 33.98425,
+    "lon": -4.986637
+  },
+  {
+    "restaurant_id": "REST-0105",
+    "name": "Cedar Bistro Fes",
+    "city": "Fes",
+    "category": "CAFE",
+    "lat": 34.018061,
+    "lon": -5.018599
+  },
+  {
+    "restaurant_id": "REST-0106",
+    "name": "Mint & Grill Fes",
+    "city": "Fes",
+    "category": "MOROCCAN",
+    "lat": 33.99226,
+    "lon": -5.018085
+  },
+  {
+    "restaurant_id": "REST-0107",
+    "name": "Zayna Food Fes",
+    "city": "Fes",
+    "category": "FAST_FOOD",
+    "lat": 34.035018,
+    "lon": -5.036981
+  },
+  {
+    "restaurant_id": "REST-0108",
+    "name": "Dar Flavors Fes",
+    "city": "Fes",
+    "category": "ITALIAN",
+    "lat": 34.037357,
+    "lon": -4.981684
+  },
+  {
+    "restaurant_id": "REST-0109",
+    "name": "Urban Couscous Fes",
+    "city": "Fes",
+    "category": "ASIAN",
+    "lat": 34.005678,
+    "lon": -5.003541
+  },
+  {
+    "restaurant_id": "REST-0110",
+    "name": "Golden Tagine Fes",
+    "city": "Fes",
+    "category": "SEAFOOD",
+    "lat": 34.039816,
+    "lon": -4.985182
+  },
+  {
+    "restaurant_id": "REST-0111",
+    "name": "Rif Taste Fes",
+    "city": "Fes",
+    "category": "HEALTHY",
+    "lat": 34.024438,
+    "lon": -5.036222
+  },
+  {
+    "restaurant_id": "REST-0112",
+    "name": "Palm Street Fes",
+    "city": "Fes",
+    "category": "CAFE",
+    "lat": 33.990803,
+    "lon": -5.022243
+  },
+  {
+    "restaurant_id": "REST-0113",
+    "name": "Spice Route Fes",
+    "city": "Fes",
+    "category": "MOROCCAN",
+    "lat": 34.052386,
+    "lon": -5.025737
+  },
+  {
+    "restaurant_id": "REST-0114",
+    "name": "Blue Door Fes",
+    "city": "Fes",
+    "category": "FAST_FOOD",
+    "lat": 34.044214,
+    "lon": -4.977625
+  },
+  {
+    "restaurant_id": "REST-0115",
+    "name": "Kasbah Bites Fes",
+    "city": "Fes",
+    "category": "ITALIAN",
+    "lat": 34.045607,
+    "lon": -4.991613
+  },
+  {
+    "restaurant_id": "REST-0116",
+    "name": "Fresh Corner Fes",
+    "city": "Fes",
+    "category": "ASIAN",
+    "lat": 33.995848,
+    "lon": -5.016946
+  },
+  {
+    "restaurant_id": "REST-0117",
+    "name": "The Copper Pot Fes",
+    "city": "Fes",
+    "category": "SEAFOOD",
+    "lat": 34.029398,
+    "lon": -4.977111
+  },
+  {
+    "restaurant_id": "REST-0118",
+    "name": "Citrus Kitchen Fes",
+    "city": "Fes",
+    "category": "HEALTHY",
+    "lat": 34.0211,
+    "lon": -5.021865
+  },
+  {
+    "restaurant_id": "REST-0119",
+    "name": "Bab Gourmet Fes",
+    "city": "Fes",
+    "category": "CAFE",
+    "lat": 34.004432,
+    "lon": -5.022938
+  },
+  {
+    "restaurant_id": "REST-0120",
+    "name": "Terracotta Fes",
+    "city": "Fes",
+    "category": "MOROCCAN",
+    "lat": 34.04128,
+    "lon": -5.031168
+  },
+  {
+    "restaurant_id": "REST-0121",
+    "name": "Atlas Kitchen Tanger",
+    "city": "Tanger",
+    "category": "FAST_FOOD",
+    "lat": 35.746692,
+    "lon": -5.802971
+  },
+  {
+    "restaurant_id": "REST-0122",
+    "name": "Medina Table Tanger",
+    "city": "Tanger",
+    "category": "ITALIAN",
+    "lat": 35.733346,
+    "lon": -5.826655
+  },
+  {
+    "restaurant_id": "REST-0123",
+    "name": "Saffron House Tanger",
+    "city": "Tanger",
+    "category": "ASIAN",
+    "lat": 35.730683,
+    "lon": -5.852941
+  },
+  {
+    "restaurant_id": "REST-0124",
+    "name": "Olive Garden Tanger",
+    "city": "Tanger",
+    "category": "SEAFOOD",
+    "lat": 35.72689,
+    "lon": -5.821614
+  },
+  {
+    "restaurant_id": "REST-0125",
+    "name": "Cedar Bistro Tanger",
+    "city": "Tanger",
+    "category": "HEALTHY",
+    "lat": 35.787065,
+    "lon": -5.867483
+  },
+  {
+    "restaurant_id": "REST-0126",
+    "name": "Mint & Grill Tanger",
+    "city": "Tanger",
+    "category": "CAFE",
+    "lat": 35.7616,
+    "lon": -5.803128
+  },
+  {
+    "restaurant_id": "REST-0127",
+    "name": "Zayna Food Tanger",
+    "city": "Tanger",
+    "category": "MOROCCAN",
+    "lat": 35.763577,
+    "lon": -5.863033
+  },
+  {
+    "restaurant_id": "REST-0128",
+    "name": "Dar Flavors Tanger",
+    "city": "Tanger",
+    "category": "FAST_FOOD",
+    "lat": 35.749259,
+    "lon": -5.866607
+  },
+  {
+    "restaurant_id": "REST-0129",
+    "name": "Urban Couscous Tanger",
+    "city": "Tanger",
+    "category": "ITALIAN",
+    "lat": 35.760411,
+    "lon": -5.809664
+  },
+  {
+    "restaurant_id": "REST-0130",
+    "name": "Golden Tagine Tanger",
+    "city": "Tanger",
+    "category": "ASIAN",
+    "lat": 35.775552,
+    "lon": -5.840918
+  },
+  {
+    "restaurant_id": "REST-0131",
+    "name": "Rif Taste Tanger",
+    "city": "Tanger",
+    "category": "SEAFOOD",
+    "lat": 35.772642,
+    "lon": -5.824706
+  },
+  {
+    "restaurant_id": "REST-0132",
+    "name": "Palm Street Tanger",
+    "city": "Tanger",
+    "category": "HEALTHY",
+    "lat": 35.782443,
+    "lon": -5.843532
+  },
+  {
+    "restaurant_id": "REST-0133",
+    "name": "Spice Route Tanger",
+    "city": "Tanger",
+    "category": "CAFE",
+    "lat": 35.744518,
+    "lon": -5.833665
+  },
+  {
+    "restaurant_id": "REST-0134",
+    "name": "Blue Door Tanger",
+    "city": "Tanger",
+    "category": "MOROCCAN",
+    "lat": 35.74832,
+    "lon": -5.853399
+  },
+  {
+    "restaurant_id": "REST-0135",
+    "name": "Kasbah Bites Tanger",
+    "city": "Tanger",
+    "category": "FAST_FOOD",
+    "lat": 35.759138,
+    "lon": -5.8047
+  },
+  {
+    "restaurant_id": "REST-0136",
+    "name": "Fresh Corner Tanger",
+    "city": "Tanger",
+    "category": "ITALIAN",
+    "lat": 35.76005,
+    "lon": -5.868581
+  },
+  {
+    "restaurant_id": "REST-0137",
+    "name": "The Copper Pot Tanger",
+    "city": "Tanger",
+    "category": "ASIAN",
+    "lat": 35.749056,
+    "lon": -5.847264
+  },
+  {
+    "restaurant_id": "REST-0138",
+    "name": "Citrus Kitchen Tanger",
+    "city": "Tanger",
+    "category": "SEAFOOD",
+    "lat": 35.786594,
+    "lon": -5.800239
+  },
+  {
+    "restaurant_id": "REST-0139",
+    "name": "Bab Gourmet Tanger",
+    "city": "Tanger",
+    "category": "HEALTHY",
+    "lat": 35.761906,
+    "lon": -5.801652
+  },
+  {
+    "restaurant_id": "REST-0140",
+    "name": "Terracotta Tanger",
+    "city": "Tanger",
+    "category": "CAFE",
+    "lat": 35.756609,
+    "lon": -5.809209
+  },
+  {
+    "restaurant_id": "REST-0141",
+    "name": "Atlas Kitchen Agadir",
+    "city": "Agadir",
+    "category": "MOROCCAN",
+    "lat": 30.402276,
+    "lon": -9.601513
+  },
+  {
+    "restaurant_id": "REST-0142",
+    "name": "Medina Table Agadir",
+    "city": "Agadir",
+    "category": "FAST_FOOD",
+    "lat": 30.412443,
+    "lon": -9.626915
+  },
+  {
+    "restaurant_id": "REST-0143",
+    "name": "Saffron House Agadir",
+    "city": "Agadir",
+    "category": "ITALIAN",
+    "lat": 30.453616,
+    "lon": -9.601051
+  },
+  {
+    "restaurant_id": "REST-0144",
+    "name": "Olive Garden Agadir",
+    "city": "Agadir",
+    "category": "ASIAN",
+    "lat": 30.43659,
+    "lon": -9.581846
+  },
+  {
+    "restaurant_id": "REST-0145",
+    "name": "Cedar Bistro Agadir",
+    "city": "Agadir",
+    "category": "SEAFOOD",
+    "lat": 30.394491,
+    "lon": -9.609701
+  },
+  {
+    "restaurant_id": "REST-0146",
+    "name": "Mint & Grill Agadir",
+    "city": "Agadir",
+    "category": "HEALTHY",
+    "lat": 30.454384,
+    "lon": -9.575159
+  },
+  {
+    "restaurant_id": "REST-0147",
+    "name": "Zayna Food Agadir",
+    "city": "Agadir",
+    "category": "CAFE",
+    "lat": 30.41195,
+    "lon": -9.59525
+  },
+  {
+    "restaurant_id": "REST-0148",
+    "name": "Dar Flavors Agadir",
+    "city": "Agadir",
+    "category": "MOROCCAN",
+    "lat": 30.422093,
+    "lon": -9.609951
+  },
+  {
+    "restaurant_id": "REST-0149",
+    "name": "Urban Couscous Agadir",
+    "city": "Agadir",
+    "category": "FAST_FOOD",
+    "lat": 30.410009,
+    "lon": -9.569929
+  },
+  {
+    "restaurant_id": "REST-0150",
+    "name": "Golden Tagine Agadir",
+    "city": "Agadir",
+    "category": "ITALIAN",
+    "lat": 30.398084,
+    "lon": -9.593526
+  },
+  {
+    "restaurant_id": "REST-0151",
+    "name": "Rif Taste Agadir",
+    "city": "Agadir",
+    "category": "ASIAN",
+    "lat": 30.429087,
+    "lon": -9.60191
+  },
+  {
+    "restaurant_id": "REST-0152",
+    "name": "Palm Street Agadir",
+    "city": "Agadir",
+    "category": "SEAFOOD",
+    "lat": 30.426468,
+    "lon": -9.632851
+  },
+  {
+    "restaurant_id": "REST-0153",
+    "name": "Spice Route Agadir",
+    "city": "Agadir",
+    "category": "HEALTHY",
+    "lat": 30.408669,
+    "lon": -9.627714
+  },
+  {
+    "restaurant_id": "REST-0154",
+    "name": "Blue Door Agadir",
+    "city": "Agadir",
+    "category": "CAFE",
+    "lat": 30.441947,
+    "lon": -9.616795
+  },
+  {
+    "restaurant_id": "REST-0155",
+    "name": "Kasbah Bites Agadir",
+    "city": "Agadir",
+    "category": "MOROCCAN",
+    "lat": 30.447099,
+    "lon": -9.572552
+  },
+  {
+    "restaurant_id": "REST-0156",
+    "name": "Fresh Corner Agadir",
+    "city": "Agadir",
+    "category": "FAST_FOOD",
+    "lat": 30.432533,
+    "lon": -9.584787
+  },
+  {
+    "restaurant_id": "REST-0157",
+    "name": "The Copper Pot Agadir",
+    "city": "Agadir",
+    "category": "ITALIAN",
+    "lat": 30.44149,
+    "lon": -9.626676
+  },
+  {
+    "restaurant_id": "REST-0158",
+    "name": "Citrus Kitchen Agadir",
+    "city": "Agadir",
+    "category": "ASIAN",
+    "lat": 30.422603,
+    "lon": -9.628374
+  },
+  {
+    "restaurant_id": "REST-0159",
+    "name": "Bab Gourmet Agadir",
+    "city": "Agadir",
+    "category": "SEAFOOD",
+    "lat": 30.457552,
+    "lon": -9.631697
+  },
+  {
+    "restaurant_id": "REST-0160",
+    "name": "Terracotta Agadir",
+    "city": "Agadir",
+    "category": "HEALTHY",
+    "lat": 30.437722,
+    "lon": -9.566424
+  },
+  {
+    "restaurant_id": "REST-0161",
+    "name": "Atlas Kitchen Meknes",
+    "city": "Meknes",
+    "category": "CAFE",
+    "lat": 33.925286,
+    "lon": -5.560656
+  },
+  {
+    "restaurant_id": "REST-0162",
+    "name": "Medina Table Meknes",
+    "city": "Meknes",
+    "category": "MOROCCAN",
+    "lat": 33.926887,
+    "lon": -5.554286
+  },
+  {
+    "restaurant_id": "REST-0163",
+    "name": "Saffron House Meknes",
+    "city": "Meknes",
+    "category": "FAST_FOOD",
+    "lat": 33.895748,
+    "lon": -5.534645
+  },
+  {
+    "restaurant_id": "REST-0164",
+    "name": "Olive Garden Meknes",
+    "city": "Meknes",
+    "category": "ITALIAN",
+    "lat": 33.913853,
+    "lon": -5.532088
+  },
+  {
+    "restaurant_id": "REST-0165",
+    "name": "Cedar Bistro Meknes",
+    "city": "Meknes",
+    "category": "ASIAN",
+    "lat": 33.875669,
+    "lon": -5.562371
+  },
+  {
+    "restaurant_id": "REST-0166",
+    "name": "Mint & Grill Meknes",
+    "city": "Meknes",
+    "category": "SEAFOOD",
+    "lat": 33.865236,
+    "lon": -5.557887
+  },
+  {
+    "restaurant_id": "REST-0167",
+    "name": "Zayna Food Meknes",
+    "city": "Meknes",
+    "category": "HEALTHY",
+    "lat": 33.908651,
+    "lon": -5.570354
+  },
+  {
+    "restaurant_id": "REST-0168",
+    "name": "Dar Flavors Meknes",
+    "city": "Meknes",
+    "category": "CAFE",
+    "lat": 33.908406,
+    "lon": -5.516983
+  },
+  {
+    "restaurant_id": "REST-0169",
+    "name": "Urban Couscous Meknes",
+    "city": "Meknes",
+    "category": "MOROCCAN",
+    "lat": 33.858997,
+    "lon": -5.513807
+  },
+  {
+    "restaurant_id": "REST-0170",
+    "name": "Golden Tagine Meknes",
+    "city": "Meknes",
+    "category": "FAST_FOOD",
+    "lat": 33.917524,
+    "lon": -5.571627
+  },
+  {
+    "restaurant_id": "REST-0171",
+    "name": "Rif Taste Meknes",
+    "city": "Meknes",
+    "category": "ITALIAN",
+    "lat": 33.867862,
+    "lon": -5.558816
+  },
+  {
+    "restaurant_id": "REST-0172",
+    "name": "Palm Street Meknes",
+    "city": "Meknes",
+    "category": "ASIAN",
+    "lat": 33.905524,
+    "lon": -5.53933
+  },
+  {
+    "restaurant_id": "REST-0173",
+    "name": "Spice Route Meknes",
+    "city": "Meknes",
+    "category": "SEAFOOD",
+    "lat": 33.921162,
+    "lon": -5.526054
+  },
+  {
+    "restaurant_id": "REST-0174",
+    "name": "Blue Door Meknes",
+    "city": "Meknes",
+    "category": "HEALTHY",
+    "lat": 33.921918,
+    "lon": -5.543089
+  },
+  {
+    "restaurant_id": "REST-0175",
+    "name": "Kasbah Bites Meknes",
+    "city": "Meknes",
+    "category": "CAFE",
+    "lat": 33.913999,
+    "lon": -5.548764
+  },
+  {
+    "restaurant_id": "REST-0176",
+    "name": "Fresh Corner Meknes",
+    "city": "Meknes",
+    "category": "MOROCCAN",
+    "lat": 33.892114,
+    "lon": -5.56383
+  },
+  {
+    "restaurant_id": "REST-0177",
+    "name": "The Copper Pot Meknes",
+    "city": "Meknes",
+    "category": "FAST_FOOD",
+    "lat": 33.927013,
+    "lon": -5.541505
+  },
+  {
+    "restaurant_id": "REST-0178",
+    "name": "Citrus Kitchen Meknes",
+    "city": "Meknes",
+    "category": "ITALIAN",
+    "lat": 33.928018,
+    "lon": -5.575341
+  },
+  {
+    "restaurant_id": "REST-0179",
+    "name": "Bab Gourmet Meknes",
+    "city": "Meknes",
+    "category": "ASIAN",
+    "lat": 33.89637,
+    "lon": -5.522893
+  },
+  {
+    "restaurant_id": "REST-0180",
+    "name": "Terracotta Meknes",
+    "city": "Meknes",
+    "category": "SEAFOOD",
+    "lat": 33.905073,
+    "lon": -5.539318
+  },
+  {
+    "restaurant_id": "REST-0181",
+    "name": "Atlas Kitchen Tetouan",
+    "city": "Tetouan",
+    "category": "HEALTHY",
+    "lat": 35.585875,
+    "lon": -5.339742
+  },
+  {
+    "restaurant_id": "REST-0182",
+    "name": "Medina Table Tetouan",
+    "city": "Tetouan",
+    "category": "CAFE",
+    "lat": 35.560481,
+    "lon": -5.395345
+  },
+  {
+    "restaurant_id": "REST-0183",
+    "name": "Saffron House Tetouan",
+    "city": "Tetouan",
+    "category": "MOROCCAN",
+    "lat": 35.557462,
+    "lon": -5.376612
+  },
+  {
+    "restaurant_id": "REST-0184",
+    "name": "Olive Garden Tetouan",
+    "city": "Tetouan",
+    "category": "FAST_FOOD",
+    "lat": 35.558236,
+    "lon": -5.368227
+  },
+  {
+    "restaurant_id": "REST-0185",
+    "name": "Cedar Bistro Tetouan",
+    "city": "Tetouan",
+    "category": "ITALIAN",
+    "lat": 35.608889,
+    "lon": -5.392177
+  },
+  {
+    "restaurant_id": "REST-0186",
+    "name": "Mint & Grill Tetouan",
+    "city": "Tetouan",
+    "category": "ASIAN",
+    "lat": 35.616428,
+    "lon": -5.346734
+  },
+  {
+    "restaurant_id": "REST-0187",
+    "name": "Zayna Food Tetouan",
+    "city": "Tetouan",
+    "category": "SEAFOOD",
+    "lat": 35.582375,
+    "lon": -5.355036
+  },
+  {
+    "restaurant_id": "REST-0188",
+    "name": "Dar Flavors Tetouan",
+    "city": "Tetouan",
+    "category": "HEALTHY",
+    "lat": 35.580521,
+    "lon": -5.397226
+  },
+  {
+    "restaurant_id": "REST-0189",
+    "name": "Urban Couscous Tetouan",
+    "city": "Tetouan",
+    "category": "CAFE",
+    "lat": 35.6001,
+    "lon": -5.341231
+  },
+  {
+    "restaurant_id": "REST-0190",
+    "name": "Golden Tagine Tetouan",
+    "city": "Tetouan",
+    "category": "MOROCCAN",
+    "lat": 35.5818,
+    "lon": -5.374472
+  },
+  {
+    "restaurant_id": "REST-0191",
+    "name": "Rif Taste Tetouan",
+    "city": "Tetouan",
+    "category": "FAST_FOOD",
+    "lat": 35.589845,
+    "lon": -5.36935
+  },
+  {
+    "restaurant_id": "REST-0192",
+    "name": "Palm Street Tetouan",
+    "city": "Tetouan",
+    "category": "ITALIAN",
+    "lat": 35.565199,
+    "lon": -5.393871
+  },
+  {
+    "restaurant_id": "REST-0193",
+    "name": "Spice Route Tetouan",
+    "city": "Tetouan",
+    "category": "ASIAN",
+    "lat": 35.589034,
+    "lon": -5.369116
+  },
+  {
+    "restaurant_id": "REST-0194",
+    "name": "Blue Door Tetouan",
+    "city": "Tetouan",
+    "category": "SEAFOOD",
+    "lat": 35.609183,
+    "lon": -5.33665
+  },
+  {
+    "restaurant_id": "REST-0195",
+    "name": "Kasbah Bites Tetouan",
+    "city": "Tetouan",
+    "category": "HEALTHY",
+    "lat": 35.5775,
+    "lon": -5.355128
+  },
+  {
+    "restaurant_id": "REST-0196",
+    "name": "Fresh Corner Tetouan",
+    "city": "Tetouan",
+    "category": "CAFE",
+    "lat": 35.576459,
+    "lon": -5.38169
+  },
+  {
+    "restaurant_id": "REST-0197",
+    "name": "The Copper Pot Tetouan",
+    "city": "Tetouan",
+    "category": "MOROCCAN",
+    "lat": 35.596964,
+    "lon": -5.372849
+  },
+  {
+    "restaurant_id": "REST-0198",
+    "name": "Citrus Kitchen Tetouan",
+    "city": "Tetouan",
+    "category": "FAST_FOOD",
+    "lat": 35.567788,
+    "lon": -5.335623
+  },
+  {
+    "restaurant_id": "REST-0199",
+    "name": "Bab Gourmet Tetouan",
+    "city": "Tetouan",
+    "category": "ITALIAN",
+    "lat": 35.615762,
+    "lon": -5.370701
+  },
+  {
+    "restaurant_id": "REST-0200",
+    "name": "Terracotta Tetouan",
+    "city": "Tetouan",
+    "category": "ASIAN",
+    "lat": 35.573387,
+    "lon": -5.336517
+  }
+]
