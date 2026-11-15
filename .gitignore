@@ -1,2 +1,7 @@
 .env.bilal
 .ipynb_checkpoints/
+
+# Generated Big Data files
+data/generated/
+*.jsonl
+__pycache__/
